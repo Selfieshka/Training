@@ -3,7 +3,6 @@ package ru.kpfu.itis.kirillakhmetov.work.matrix;
 public class MatrixCode {
     private int n;
     private MyLinkedList<NodeMatrix> list;
-
     public MatrixCode(int[][] arr) {
         this.n = arr.length;
         remake(arr);

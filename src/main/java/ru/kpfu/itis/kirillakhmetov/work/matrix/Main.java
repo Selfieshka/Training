@@ -1,32 +1,35 @@
 package ru.kpfu.itis.kirillakhmetov.work.matrix;
 
 import java.io.Writer;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
 public class Main {
-    public static void main(String[] args) {
-        int[][] matrix = {{0, 0, 3},
-                        {0, 0, 6},
-                        {7, 8, 9}};
-        MatrixCode matrixCode = new MatrixCode(matrix);
-        matrixCode.insert(1, 1, 10);
-        matrixCode.delete(1, 2);
-        System.out.println(Arrays.deepToString(matrixCode.decode()));
-        System.out.println(matrixCode.sum());
+    public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException, ClassNotFoundException, InstantiationException {
+//        int[][] matrix = {{0, 0, 3},
+//                        {0, 0, 6},
+//                        {7, 8, 9}};
+//        MatrixCode matrixCode = new MatrixCode(matrix);
+//        matrixCode.insert(1, 1, 10);
+//        matrixCode.delete(1, 2);
+//        System.out.println(Arrays.deepToString(matrixCode.decode()));
+//        System.out.println(matrixCode.sum());
+//
+//        List<Integer> nums = new ArrayList<>();
+//        nums.add(5);
+//        nums.add(1);
+//        nums.add(117);
+//        nums.add(9);
+//        nums.add(35);
+//        nums.add(44);
 
-        List<Integer> nums = new ArrayList<>();
-        nums.add(5);
-        nums.add(1);
-        nums.add(117);
-        nums.add(9);
-        nums.add(35);
-        nums.add(44);
-
-        nums.sort(new IntComparator());
-        nums.forEach(System.out::println);
+//        nums.sort(new IntComparator());
+//        nums.forEach(System.out::println);
     }
 
     public static class IntComparator implements Comparator<Integer> {
