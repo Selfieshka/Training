@@ -2,7 +2,6 @@ import org.junit.Assert;
 import org.junit.Test;
 import ru.kpfu.itis.kirillakhmetov.work.graphs.Main;
 
-import java.io.FileNotFoundException;
 import java.util.LinkedList;
 import java.util.List;
 

@@ -1,11 +1,5 @@
 package ru.kpfu.itis.kirillakhmetov.work.history;
 
-import java.io.*;
-import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
-
 public class Main {
 //    static int count = 0;
 //    public static void main(String[] args) throws IOException {

@@ -1,8 +1,9 @@
 package ru.kpfu.itis.kirillakhmetov.work.streams;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class Main {
     public static void main(String[] args) {

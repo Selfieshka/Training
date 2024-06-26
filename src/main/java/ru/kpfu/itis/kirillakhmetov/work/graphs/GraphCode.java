@@ -1,7 +1,5 @@
 package ru.kpfu.itis.kirillakhmetov.work.graphs;
 
-import java.util.LinkedList;
-
 public class GraphCode {
     private MyLinkedList<Rebro> rebrs;
     private int n;

@@ -1,13 +1,7 @@
 package ru.kpfu.itis.kirillakhmetov.work.matrix;
 
-import java.io.Writer;
-import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException, ClassNotFoundException, InstantiationException {

@@ -2,12 +2,10 @@ package ru.kpfu.itis.kirillakhmetov.work.graphs;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
-import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,7 +22,6 @@ public class Main {
         System.out.println(graphCode.incident(0));
         graphCode.modify(0);
         graphCode.printed();
-
 
 //         2
         try (BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("result"), StandardCharsets.UTF_8))) {
